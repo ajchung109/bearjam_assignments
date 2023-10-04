@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class stickyPlatform : MonoBehaviour
+public class mystery : MonoBehaviour
 {
 
-    private void OnCollisionEnter2D(Collision2D collision) //maybe give extra challenge to tackle sticky side (change to trigger + another collider) 
+    // comment on what you think the purpose of this class is; what function does it serve?
+    // briefly summarize what each line does 
+    private void OnCollisionEnter2D(Collision2D collision) 
     {
         if (collision.gameObject.tag == "Player")
         {
